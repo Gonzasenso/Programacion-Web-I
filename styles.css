@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.seccionIndice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    border: 0.3rem solid;
+    background-color: rgb(221, 218, 218);
+}
+
+.seccionIndice h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    font-size: 3.5rem;
+}
+
+.seccionIndice h1 hr{
+    border: none;
+    background-color: black;
+    width: 4rem;
+    height: 0.3rem;
+}
+
+.listaEjercicios li{
+    font-size: 2.5rem;
+}
+
+.listaEjercicios li h2 {
+    font-size: 2.5rem;
+    padding: 2rem 0 1rem;
+}
+
+.listaLinks{
+    padding-left: 2.5rem;
+}
+
+.listaLinks li{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.listaLinks li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
